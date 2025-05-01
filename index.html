@@ -31,7 +31,7 @@
   <body>
     <canvas id="unity-canvas" tabindex="-1"></canvas>
 
-    <script src="Build/BuildRun1.loader.js"></script>
+    <script src="Build/JonZorlu.loader.js"></script>
 
     <script>
       // This part remains for mobile-specific meta tag if you still need it,
@@ -60,11 +60,11 @@
       // The Unity instance creation
       createUnityInstance(canvas, {
         arguments: [],
-        dataUrl: "Build/BuildRun1.data.gz",
-        frameworkUrl: "Build/BuildRun1.framework.js.gz",
-        codeUrl: "Build/BuildRun1.wasm.gz",
+        dataUrl: "Build/JonZorlu.data",
+        frameworkUrl: "Build/JonZorlu.framework.js",
+        codeUrl: "Build/JonZorlu.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "JonZorlu",
         productName: "JonZorlu",
         productVersion: "0.1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
